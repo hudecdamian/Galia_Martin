@@ -1,0 +1,86 @@
+.flex-container {
+    display: flex;
+    gap: 20px; 
+}
+
+
+.img4, .img5, .img6 {
+    flex-basis: 480px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+
+.img7, .img8, .img9 {
+    flex-basis: 480px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+
+.img10, .img11, .img12 {
+    flex-basis: 480px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+
+.img13, .img14, .img15 {
+    flex-basis: 480px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.custom-text {
+    text-align: center;
+}
+
+
+/* Kontejner pro Facebook video */
+.fb-video-kontejner {
+    max-width: 800px;         /* Maximální šířka na webu */
+    width: 100%;              /* Roztáhne se podle potřeby */
+    margin: 20px auto;        /* Vycentrování na střed */
+    border-radius: 12px;      /* Zaoblení rohů */
+    overflow: hidden;         /* Aby zaoblené rohy ořízly i samotné video */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15); /* Stylový stín */
+}
+
+/* Styl pro samotný iframe uvnitř kontejneru */
+.fb-video-kontejner iframe {
+    width: 100%;              /* Video vyplní celou šířku kontejneru */
+    aspect-ratio: 16 / 9;     /* Drží standardní širokoúhlý poměr stran */
+    display: block;           /* Odstraní nechtěné mezery */
+}
+
+
+/* Kontejner pro Facebook video */
+.video-kontejner {
+    max-width: 800px;         /* Maximální šířka na webu */
+    width: 100%;              /* Roztáhne se podle potřeby */
+    margin: 20px auto;        /* Vycentrování na střed */
+    border-radius: 12px;      /* Zaoblení rohů */
+    overflow: hidden;         /* Aby zaoblené rohy ořízly i samotné video */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15); /* Stylový stín */
+}
+
+/* Styl pro samotný iframe uvnitř kontejneru */
+.video-kontejner iframe {
+    width: 100%;              /* Video vyplní celou šířku kontejneru */
+    aspect-ratio: 16 / 9;     /* Drží standardní širokoúhlý poměr stran */
+    display: block;           /* Odstraní nechtěné mezery */
+}
+
+
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, .img15 {
+        flex-basis: 100%;
+        max-width: 480px;
+    }
+}
