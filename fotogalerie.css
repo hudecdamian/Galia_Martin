@@ -1,0 +1,84 @@
+.flex-container {
+    display: flex;
+    gap: 20px; 
+}
+
+
+.img4, .img5, .img6 {
+    flex-basis: 480px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+
+.img7, .img8, .img9 {
+    flex-basis: 480px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+
+.img10, .img11, .img12 {
+    flex-basis: 480px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+
+.img13, .img14, .img15 {
+    flex-basis: 480px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.custom-text {
+    text-align: center;
+}
+
+
+.fb-video-kontejner {
+    max-width: 800px;        
+    width: 100%;              
+    margin: 20px auto;        
+    border-radius: 12px;      
+    overflow: hidden;         
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15); 
+}
+
+
+.fb-video-kontejner iframe {
+    width: 100%;              
+    aspect-ratio: 16 / 9;     
+    display: block;         
+}
+
+
+.video-kontejner {
+    max-width: 800px;         
+    width: 100%;              
+    margin: 20px auto;       
+    border-radius: 12px;      
+    overflow: hidden;         
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15); 
+}
+
+
+.video-kontejner iframe {
+    width: 100%;              
+    aspect-ratio: 16 / 9;     
+    display: block;           
+}
+
+
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img2, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, .img15 {
+        flex-basis: 100%;
+        max-width: 480px;
+    }
+}
