@@ -1,4 +1,4 @@
-# 🌐 Profesionální Vícestránková Webová Prezentace
+# 🌐 Vícestránková Webová Prezentace Na Sportovce Galia Martin
 
 Vítejte v repozitáři moderního webového projektu, který demonstruje čistý přístup k frontendovému vývoji bez závislosti na těžkopádných frameworkách. Celý projekt byl vyvinut s důrazem na sémantiku, čistotu kódu, výkon a uživatelskou přívětivost (UX).
 
@@ -25,10 +25,10 @@ Projekt je plně nasazen a připraven k prohlížení v reálném prostředí:
 Projekt využívá vícestránkovou architekturu (Multi-Page Application), což je ideální řešení pro weby s jasně odděleným obsahem.
 
 ### 📑 HTML Stránky (Struktura a Obsah)
-*   **`index.html`** – Vstupní brána webu (Landing Page). Obsahuje klíčové sdělení, call-to-action prvky a rozcestník do dalších sekcí.
-*   **`fotogalerie.html`** – Dedikovaná stránka pro vizuální prezentaci produktů či práce. Navržena s ohledem na rychlé načítání médií.
-*   **`kariera.html`** – Sekce zaměřená na nábor nových talentů nebo představení profesního pozadí. Obsahuje strukturované informace pro potenciální zájemce.
-*   **`zaver.html`** – Konverzní stránka (závěr prezentace). Shrnuje nejdůležitější body a směřuje uživatele ke kontaktním informacím či další akci.
+*   **`index.html`** – Vstupní brána webu (Landing Page). Budete seznámeni s tím, kdo Galia Martin je.
+*   **`fotogalerie.html`** – Dedikovaná stránka pro vizuální prezentaci. Navržena s ohledem na rychlé načítání médií.
+*   **`kariera.html`** – Sekce zaměřená na více přiblížení jeho kariéry.
+*   **`zaver.html`** – Konverzní stránka. Shrnuje nejdůležitější body a dozvíte se proč jsem si vybral tohoto sportovce.
 
 ### 🎨 CSS (Vizuální Styl a Layout)
 *   **`style.css`** – Globální stylopis. Definuje typografii, barevnou paletu, CSS proměnné, hlavičku, patičku a společné komponenty napříč celým webem.
